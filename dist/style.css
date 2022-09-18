@@ -1,0 +1,108 @@
+#app {
+    text-align: center;
+}
+/* .outer-circle {
+    position: relative;
+    background-color: #777;
+    display: inline-flex;
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+} */
+.circle {
+    border: 1px solid #000;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    display: inline-flex;
+    position: relative;
+    transition-duration: 900ms;
+  }
+  #right {
+    position: absolute;
+    margin-top: 150px;
+    top: 0;
+    right: 0;
+    border-radius: 50%;
+    line-height: 100px;
+    height: 100px;
+    width: 100px;
+    background-color: #ea0001;
+  }
+  #bottom {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-right: 150px;
+    border-radius: 50%;
+    line-height: 100px;
+    height: 100px;
+    width: 100px;
+    background-color: green;
+  }
+  #left {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 150px;
+    left: 0;
+    border-radius: 50%;
+    line-height: 100px;
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+  }
+  #top {
+    position: absolute;
+    border-radius: 50%;
+    line-height: 100px;
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    top: 0;
+    left: 0;
+    margin-left: 150px;
+  }
+  .item-1 {
+    position: absolute;
+    display: inline-block;
+  }
+  .item-2 {
+    position: absolute;
+    display: none;
+  }
+  .item-3 {
+    position: absolute;
+    display: none;
+  }
+  .item-4 {
+    position: absolute;
+    display: none;
+  }
+  #item-carousel {
+      text-align: center;
+      margin-top: 95px;
+  }
+  #arrowRow-down img {
+    height: 30px;
+    width: 60px !important;
+    margin-top: 150px;
+  }
+  #arrowRow-up img {
+    height: 30px;
+    width: 60px !important;
+  }
+  #arrowRow-up {
+      display: flex !important;
+      position: absolute;
+  }
+  #arrowRow-down {
+    display: flex !important;
+    margin-top: 50px;
+    position: relative;
+    height: 30px;
+}
+  #content-row {
+      display: flex;
+      justify-content: center;
+      position: relative;
+  }
