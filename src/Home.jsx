@@ -53,14 +53,9 @@ const Home = (props) => {
         clicks = 0;
       }
     }
-    var rotateUp = function() {
-        console.log('up')
-    }
     // window.setInterval(rotate, 2000);
     return (
       <div className="App">
-        <h1>test component</h1>
-        <button onClick={rotate}>click me</button>
         <Row>
             <Col md={6}>
         <div class="circle">
