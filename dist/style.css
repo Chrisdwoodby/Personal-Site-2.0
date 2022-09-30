@@ -1,11 +1,20 @@
+#main-bg {
+    min-height:100%;
+    background:linear-gradient(90deg, rgb(77, 153, 143, 0.9), rgb(0, 74, 85, .8)), url('/skyline.jpeg') ;
+    background-size:cover;
+    padding-bottom: 75px;
+  }
 #app {
     text-align: center;
 }
-
+.porfolio {
+    background: rgb(182, 223, 223);
+}
 #name-row {
     display:inline-flex !important;
     flex-wrap: unset !important;
     width: unset !important;
+    margin-top: 50px;
 }
 .top .row>* {
     width: unset !important;
@@ -14,18 +23,32 @@
     padding-left: 0px !important;
     padding-right: 0px !important;
     margin: 0;
+    color: #fff;
+    letter-spacing: 5px;
+    font-family: 'Poiret One', cursive;
+    text-shadow: 2px 2px #000;
     animation: revealFirst 3s forwards;
+    animation-timing-function: cubic-bezier(0.91, 0.31, 0.25, 1);
 }
 #name-right {
     padding-left: 0px !important;
     padding-right: 0px !important;
     margin: 0;
+    color: #fff;
+    letter-spacing: 5px;
+    font-family: 'Poiret One', cursive;
+    text-shadow: 2px 2px #000;
     animation: revealLast 3s forwards;
+    animation-timing-function: cubic-bezier(0.91, 0.31, 0.25, 1);
 }
 #name-divider {
-    width: 200px;
+    width: 1px !important;
+    background-color: #fff;
+    padding: 1px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
-  @keyframes revealLast {
+@keyframes revealLast {
     from {
       clip-path: inset(0 100% 0 0);
     }
@@ -42,35 +65,82 @@
     }
 }
 
-
-
 #navigation-row {
     padding: 150px;
+    padding-bottom: 60px;
 }
 .nav-left {
-    transition: transform 1500ms;
+    transition: opacity 2s, transform 1500ms;
     display: block;
+    color: #fff;
+    font-weight: 600;
+    opacity: 0;
+    letter-spacing: 5px;
+    text-decoration: none;
+    font-family: 'Poiret One', cursive;
+    /* text-shadow: 2px 2px #000; */
 }
   
 body.loaded .nav-left {
     transform: translate(-100px, -50px);
+    opacity: 1;
 }
   .nav-right {
-    transition: transform 1500ms;
+    transition: opacity 2s, transform 1500ms;
     display: block;
+    color: #fff;
+    font-weight: 600;
+    opacity: 0;
+    letter-spacing: 5px;
+    text-decoration: none;
+    font-family: 'Poiret One', cursive;
+    /* text-shadow: 2px 2px #000; */
 }
-  
+.nav-right:hover {
+    color: lightgray;
+    text-shadow: none;
+}
+.nav-left:hover {
+    color: lightgray;
+    text-shadow: none;
+}
 body.loaded .nav-right {
     transform: translate(100px, -50px);
+    opacity: 1;
+}
+#home-row {
+    padding-bottom: 180px;
+}
+.headshot {
+    background: rgb(182, 223, 223, 0.7);
+    height: 320px;
+    width: 320px;
+    border-radius: 50%;
+    display: inline-block;
+}
+.headshot img {
+    height: 200px;
+    margin-top: 75px;
 }
 .circle {
-    border: 1px solid #000;
     width: 400px;
     height: 400px;
     border-radius: 50%;
     display: inline-flex;
     position: relative;
     transition-duration: 900ms;
+  }
+  .inner-div-1 {
+    transition-duration: 300ms;
+  }
+  .inner-div-2 {
+    transition-duration: 300ms;
+  }
+  .inner-div-3 {
+    transition-duration: 300ms;
+  }
+  .inner-div-4 {
+    transition-duration: 300ms;
   }
   #right {
     position: absolute;
@@ -81,7 +151,8 @@ body.loaded .nav-right {
     line-height: 100px;
     height: 100px;
     width: 100px;
-    background-color: #ea0001;
+    background: rgb(254, 255, 180, 0.7);
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
   }
   #bottom {
     position: absolute;
@@ -92,7 +163,8 @@ body.loaded .nav-right {
     line-height: 100px;
     height: 100px;
     width: 100px;
-    background-color: green;
+    background: rgb(95, 144, 80, 0.7);
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
   }
   #left {
     position: absolute;
@@ -103,7 +175,8 @@ body.loaded .nav-right {
     line-height: 100px;
     height: 100px;
     width: 100px;
-    background-color: blue;
+    background: rgb(77, 153, 143, 0.7);
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
   }
   #top {
     position: absolute;
@@ -111,35 +184,52 @@ body.loaded .nav-right {
     line-height: 100px;
     height: 100px;
     width: 100px;
-    background-color: pink;
+    background: rgb(0, 74, 85, 0.7);
     top: 0;
     left: 0;
     margin-left: 150px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
   }
   .item-1 {
     position: absolute;
     display: inline-block;
+    color: #fff;
+    font-family: 'Poiret One', cursive;
   }
   .item-2 {
     position: absolute;
     display: none;
+    color: #fff;
+    font-family: 'Poiret One', cursive;
   }
   .item-3 {
     position: absolute;
     display: none;
+    color: #fff;
+    font-family: 'Poiret One', cursive;
   }
   .item-4 {
     position: absolute;
     display: none;
+    color: #fff;
+    font-family: 'Poiret One', cursive;
   }
   #item-carousel {
       text-align: center;
-      margin-top: 95px;
+      margin-top: 33px;
+      padding: 30px;
+      border-radius: 25px;
+      width: 400px;
+      background: rgba(101, 173, 127, 0.7);
+  }
+  #item-wheel {
+      margin-top: -125px;
+      padding-bottom: 50px;
   }
   #arrowRow-down img {
     height: 30px;
     width: 60px !important;
-    margin-top: 150px;
+    margin-top: 195px;
   }
   #arrowRow-up img {
     height: 30px;
@@ -148,6 +238,7 @@ body.loaded .nav-right {
   #arrowRow-up {
       display: flex !important;
       position: absolute;
+      margin-top: -20px;
   }
   #arrowRow-down {
     display: flex !important;
@@ -159,4 +250,12 @@ body.loaded .nav-right {
       display: flex;
       justify-content: center;
       position: relative;
+      padding-top: 50px;
+  }
+  .skills {
+      background: linear-gradient(rgba(21,66,43,255), #e9c893);;
+      height: 500px;
+  }
+  #item-tchnologies {
+      color: lightgray;
   }

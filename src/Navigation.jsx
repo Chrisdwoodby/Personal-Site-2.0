@@ -5,7 +5,12 @@ import Container from 'react-bootstrap/Container';
 
 
 const Navigation = () => {
-  
+ 
+    setTimeout(() => {
+        // window.onload = function() {
+            document.getElementById('body').className = 'loaded';
+        // };  
+    }, 1200) 
 
   return (
       <div class="top">
