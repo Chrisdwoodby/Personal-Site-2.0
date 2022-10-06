@@ -118,10 +118,24 @@ const Skills = () => {
         }
       }
     // window.setInterval(rotate, 2000);
+    window.addEventListener('scroll', function() {
+        var element = document.querySelector('#content-row');
+        var position = element.getBoundingClientRect();
+    
+        // checking whether fully visible
+        if(position.top >= 0 && position.bottom <= window.innerHeight) {
+            element.classList.add("content-row-in-view");
+        }
+    
+        // checking for partial visibility
+        if(position.top < window.innerHeight && position.bottom >= 0) {
+            console.log('Element is partially visible in screen');
+        }
+    });
     return (
       <div class="porfolio">
         <Row id="item-wheel">
-        <Col md={6}>
+        <Col id="spinning-wheel" md={6} className="d-flex flex-row mb-3">
         <div class="circle">
           <div class="inner-div-1" id="top">top</div>
           <div class="inner-div-2" id="left">left</div>
@@ -129,7 +143,8 @@ const Skills = () => {
           <div class="inner-div-4" id="bottom">bottom</div>
         </div>
         </Col>
-        <Col id="content-row" md={6}>
+        <Col id="content-row" md={6} >
+          <Row><h2>Portfolio Details</h2></Row>
           <Row id="arrowRow-up"><img onClick={rotateUp} src={upArrow}/></Row>
           <div id="item-carousel" class="item-1">
             <h4>title 1 here</h4>
@@ -151,7 +166,7 @@ const Skills = () => {
             <span id="item-tchnologies">React | JavaScript | MySQL | Bootstrap | Webpack | API's</span>
             <span>Flight tracker which is capable of displaying real time flight data while also providing the user with a hashed and secure log in/sign up.</span>
           </div>
-          <Row id="arrowRow-down"><img onClick={rotate} src={downArrow}/></Row>
+          {/* <Row id="arrowRow-down"><img onClick={rotate} src={downArrow}/></Row> */}
         </Col>
         </Row>
       </div>
