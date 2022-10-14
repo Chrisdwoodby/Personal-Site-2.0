@@ -2,7 +2,9 @@ import React, {useState} from "react";
 import Home from "./Home.jsx";
 import Navigation from "./Navigation.jsx";
 import Skills from "./Skills.jsx";
-import Blogs from "./Blogs.jsx";
+import Work from "./Work.jsx";
+import { Portal } from "react-is";
+import Portfolio from "./Portfolio.jsx";
 
 const Main = function(props) {
   return (
@@ -11,8 +13,9 @@ const Main = function(props) {
         <Navigation/>
         <Home/>
       </div>
+        <Portfolio/>
         <Skills/>
-        <Blogs/>
+        <Work/>
       </div>
   )
 }
