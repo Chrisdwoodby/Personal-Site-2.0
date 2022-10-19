@@ -25,23 +25,22 @@ const Skills = () => {
     });
   return (
     <div class="skills-page">
-        <Row>
-            <Col id="title-row" md={6}>
-                <Row><h2>Skills</h2></Row>
-            </Col>
-            <Col md={6}></Col>
-        </Row>
-        <Row id="logo-icons">
-            <Col><img id="aws-logo" src={aws}/></Col>
-            <Col><img id="node-logo" src={node}/></Col>
-            <Col><img id="javascript-logo" src={javascript}/></Col>
-            <Col><img id="typescript-logo" src={typescript}/></Col>
-            <Col><img id="react-logo" src={react}/></Col>
-            <Col><img id="aws-logo2" src={aws}/></Col>
-        </Row>
-        <Row id="laptop-image"><img src={laptop}/></Row>
+    <div>
+        <Col id="title-row" md={6}>
+            <div><h2>Skills</h2></div>
+        </Col>
+        <Col md={6}></Col>
+    </div>
+    <div id="logo-icons">
+        <Col><img id="aws-logo" src={aws}/></Col>
+        <Col><img id="node-logo" src={node}/></Col>
+        <Col><img id="javascript-logo" src={javascript}/></Col>
+        <Col><img id="typescript-logo" src={typescript}/></Col>
+        <Col><img id="react-logo" src={react}/></Col>
+        <Col><img id="aws-logo2" src={aws}/></Col>
+    </div>
+    <div id="laptop-image"><img src={laptop}/></div>
     </div>
   )
-}
-
+  }
 export default Skills;

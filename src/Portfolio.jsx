@@ -3,6 +3,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import upArrow from '../Media/upArrow.png'
 import downArrow from '../Media/downArrow.png'
+import { Container } from "react-bootstrap";
 
 const Portfolio = () => {
     var clicks = 0;
@@ -133,7 +134,8 @@ const Portfolio = () => {
     });
     return (
       <div class="porfolio">
-        <Row id="item-wheel">
+        {/* <Container> */}
+        <div id="item-wheel">
         <Col id="spinning-wheel" md={6} className="d-flex flex-row mb-3">
         <div class="circle">
           <div class="inner-div-1" id="top">top</div>
@@ -143,7 +145,7 @@ const Portfolio = () => {
         </div>
         </Col>
         <Col id="content-row" md={6} >
-          <Row><h2>Portfolio Details</h2></Row>
+          <div ><h2>Portfolio Details</h2></div>
           <Row id="arrowRow-up"><img onClick={rotateUp} src={upArrow}/></Row>
           <div id="item-carousel" class="item-1">
             <h4>title 1 here</h4>
@@ -167,7 +169,8 @@ const Portfolio = () => {
           </div>
           {/* <Row id="arrowRow-down"><img onClick={rotate} src={downArrow}/></Row> */}
         </Col>
-        </Row>
+        </div>
+        {/* </Container> */}
       </div>
     )
 }
