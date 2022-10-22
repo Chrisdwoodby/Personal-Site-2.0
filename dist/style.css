@@ -118,6 +118,10 @@ body.loaded .nav-right {
     height: 200px;
     margin-top: 75px;
 }
+.box-2 a {
+    padding: 15px 25px;
+    background-color: #777;
+}
 .porfolio {
     /* background: linear-gradient(rgb(0, 74, 85) 0%, rgb(77, 153, 143) 120%); */
     background: rgb(253, 236, 186);

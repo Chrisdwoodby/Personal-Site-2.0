@@ -158,6 +158,10 @@ const Home = (props) => {
     //     </Row>
     //   </div>
     // )
+
+    var downloadClicked = function() {
+    
+    }
     return (
       <Container>
         <Row id="home-row">
@@ -165,7 +169,9 @@ const Home = (props) => {
             <div class="headshot"><img src={headshot}/></div>
           </Col>
           <Col md={6}>
-            
+            <div class="box-2">
+              <a id="resume-btn" onClick={downloadClicked}>Download Resume</a>
+            </div>
           </Col>
         </Row>
       </Container>
