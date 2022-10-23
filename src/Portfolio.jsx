@@ -1,8 +1,12 @@
 import React, {useState} from "react";
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import upArrow from '../Media/upArrow.png'
-import downArrow from '../Media/downArrow.png'
+import upArrow from '../Media/upArrow.png';
+import plane from '../Media/plane.png';
+import bus from '../Media/bus.png';
+import truck from '../Media/truck.png';
+import wedding from '../Media/wedding.png';
+import downArrow from '../Media/downArrow.png';
 import { Container } from "react-bootstrap";
 
 const Portfolio = () => {
@@ -138,10 +142,10 @@ const Portfolio = () => {
         <div id="item-wheel">
         <Col id="spinning-wheel" md={6} className="d-flex flex-row mb-3">
         <div class="circle">
-          <div class="inner-div-1" id="top">top</div>
-          <div class="inner-div-2" id="left">left</div>
-          <div class="inner-div-3" id="right">right</div>
-          <div class="inner-div-4" id="bottom">bottom</div>
+          <div class="inner-div-1" id="top"><img id="portfolio-img" src={plane}/></div>
+          <div class="inner-div-2" id="left"><img id="portfolio-img" src={bus}/></div>
+          <div class="inner-div-3" id="right"><img id="portfolio-img" src={truck}/></div>
+          <div class="inner-div-4" id="bottom"><img id="portfolio-img" src={wedding}/></div>
         </div>
         </Col>
         <Col id="content-row" md={6} >

@@ -139,6 +139,9 @@ body.loaded .nav-right {
     background: rgb(253, 236, 186);
     border-top-left-radius: 250px 100px;
 }
+#portfolio-img {
+    height: 90px;
+}
 .circle {
     width: 400px;
     height: 400px;
