@@ -137,7 +137,7 @@ const Portfolio = () => {
         }
     });
     return (
-      <div class="porfolio">
+      <div id="Portfolio-page" class="porfolio">
         {/* <Container> */}
         <div id="item-wheel">
         <Col id="spinning-wheel" md={6} className="d-flex flex-row mb-3">
@@ -149,7 +149,7 @@ const Portfolio = () => {
         </div>
         </Col>
         <Col id="content-row" md={6} >
-          <div ><h2>Portfolio Details</h2></div>
+          <div><h2>Portfolio Details</h2></div>
           <Row id="arrowRow-up"><img onClick={rotateUp} src={upArrow}/></Row>
           <div id="item-carousel" class="item-1">
             <h4>title 1 here</h4>

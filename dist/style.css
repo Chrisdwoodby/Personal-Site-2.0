@@ -113,14 +113,23 @@ body.loaded .nav-right {
     width: 320px;
     border-radius: 50%;
     display: inline-block;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
 .headshot img {
     height: 200px;
     margin-top: 75px;
 }
+#home-title-header {
+    font-family: 'Poiret One', cursive;
+    margin-bottom: 40px;
+}
 .box-2 a {
     padding: 15px 25px;
-    background-color: #777;
+    font-family: 'Poiret One', cursive;
+    border-radius: 30px;
+    color: #fff !important;
+    background-color: rgb(65, 47, 44, .7);
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
 .porfolio {
     /* background: linear-gradient(rgb(0, 74, 85) 0%, rgb(77, 153, 143) 120%); */
@@ -242,6 +251,7 @@ body.loaded .nav-right {
       width: 400px;
       opacity: 0;
       background: #412f2c;
+      box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
       transition: opacity 1500ms, transform 1500ms;
   }
   .content-row-in-view #item-carousel {
@@ -327,6 +337,7 @@ body.loaded .nav-right {
 #logo-icons {
     display: flex;
     position: relative;
+    padding-top: 75px;
 }
 #aws-logo {
     opacity: 0;
@@ -385,6 +396,7 @@ body.loaded .nav-right {
 .work-page {
     /* height: 600px; */
     background: #db8b39;
+    padding-bottom: 100px;
 }
 #work-row-raised {
     display: flex;
@@ -404,49 +416,87 @@ body.loaded .nav-right {
 }
 #work-col-raised h2 {
     margin-top: -100px;
+    color: #fff;
     font-family: 'Poiret One', cursive;
 }
 #work-items-row {
     display: inline-flex;
+    color: #fff;
+    font-family: 'Poiret One', cursive;
+    padding: 50px 0px;
 }
 #timeline-col-1 {
     background:linear-gradient(90deg, rgb(253, 236, 186, 0.2), rgb(253, 236, 186, .2) 80%), url('/retail.jpeg');
     margin: 15px;
+    display: inline-block;
     background-size: cover;
     background-repeat: no-repeat;
     width: 250px;
     height: 300px;
     border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
 #timeline-col-2 {
     background:linear-gradient(90deg, rgb(253, 236, 186, 0.2), rgb(253, 236, 186, .2) 80%), url('/bootcamp.jpeg');
     margin: 15px;
+    display: inline-block;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     width: 250px;
     height: 300px;
     border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
 #timeline-col-3 {
     background:linear-gradient(90deg, rgb(253, 236, 186, 0.2), rgb(253, 236, 186, .2) 80%), url('/freelance.jpeg');
     margin: 15px;
+    display: inline-block;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     width: 250px;
     height: 300px;
     border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
 #timeline-col-4 {
     background:linear-gradient(90deg, rgb(253, 236, 186, 0.2), rgb(253, 236, 186, .2) 80%), url('/saas.jpeg');
     margin: 15px;
+    display: inline-block;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     width: 250px;
     height: 300px;
     border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.footer-main {
+    padding-top: 100px;
+    background: #412f2c;
+}
+.footer-navigation {
+    width: 50%;
+    padding: 10px 0px;
+    display: inline;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+}
+.footer-nav-item {
+    margin: 25px !important;
+    font-family: 'Poiret One', cursive;
+    text-decoration: none;
+    color: #fff;
+}
+.social-icons {
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+.social-icons a {
+    margin: 25px;
+    color: #fff;
+    text-decoration: none;
 }
 @media (max-width: 767px) {
     #navigation-row > div:nth-child(4) > a {
@@ -463,8 +513,11 @@ body.loaded .nav-right {
     #item-carousel {
         margin-top: 0px;
     }
+    .content-row-in-view #item-carousel {
+        transform: translate(0px, 40px);
+    }
     #spinning-wheel {
-        padding-top: 235px;
+        padding-top: 350px;
         display: inline-block !important;
     }
     #content-row h2 {
@@ -506,8 +559,11 @@ body.loaded .nav-right {
     #work-col-raised {
         width: 100%;
     }
+    #work-items-row {
+        display: inline-block;
+    }
 }
-@media (max-width: 991px) {
+@media (min-width: 768px) and (max-width: 991px) {
     .circle {
         width: 350px;
         height: 350px;

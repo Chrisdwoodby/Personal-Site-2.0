@@ -24,7 +24,7 @@ const Skills = () => {
         }
     });
   return (
-    <div class="skills-page">
+    <div id="skills-page" class="skills-page">
     <div>
         <Col id="title-row" md={6}>
             <div><h2>Skills</h2></div>
