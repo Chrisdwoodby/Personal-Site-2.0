@@ -4,6 +4,7 @@ import Col from 'react-bootstrap/Col';
 import upArrow from '../Media/upArrow.png'
 import downArrow from '../Media/downArrow.png'
 import headshot from '../Media/headshot.png'
+// import jet from '../Media/jet.jpg';
 import { Container } from "react-bootstrap";
 
 const Home = (props) => {
@@ -166,7 +167,7 @@ const Home = (props) => {
       <Container>
         <Row id="home-row">
           <Col md={6}>
-            <div class="headshot"><img src={headshot}/></div>
+            <div class="headshot" ></div>
           </Col>
           <Col md={6}>
             <h1 id="home-title-header">Front End Web Developer</h1>

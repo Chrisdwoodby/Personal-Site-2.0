@@ -6,6 +6,7 @@ import Work from "./Work.jsx";
 import { Portal } from "react-is";
 import Portfolio from "./Portfolio.jsx";
 import Footer from "./Footer.jsx";
+import Contact from "./Contact.jsx";
 
 const Main = function(props) {
   return (
@@ -17,6 +18,7 @@ const Main = function(props) {
         <Portfolio/>
         <Skills/>
         <Work/>
+        {/* <Contact/> */}
         <Footer/>
       </div>
   )
