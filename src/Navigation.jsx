@@ -37,20 +37,6 @@ const Navigation = () => {
             <div class="mobile-menu">
               <button onClick={handleShowMenu} class="btn"><i class="fa fa-bars"></i> Menu</button>
             </div>
-            <Modal show={show} onHide={handleClose}>
-              <Modal.Header closeButton>
-                <Modal.Title>Contact Me</Modal.Title>
-              </Modal.Header>
-              <Modal.Body>Woohoo, you're reading this text in a modal!</Modal.Body>
-              <Modal.Footer>
-                <Button variant="secondary" onClick={handleClose}>
-                Close
-                </Button>
-                <Button variant="primary" onClick={handleClose}>
-                Save Changes
-                </Button>
-              </Modal.Footer>
-            </Modal>
             <Col><a class="nav-right" href="#Experience-page">Experience</a></Col>
           </div>
           <Offcanvas show={showMenu} onHide={handleCloseMenu}>
