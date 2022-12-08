@@ -30,7 +30,7 @@ const Work = () => {
 
         <Col md={3}><div id="timeline-col-4"></div>
           <h4>Front End Engineer</h4>
-          <article>Saas oriented Newly aquired startup based in Austin, TX</article>
+          <article>Custom SEO fucused Development via JQuery JS</article>
         </Col>
       </div>
     </div>

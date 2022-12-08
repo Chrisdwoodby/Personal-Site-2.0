@@ -8,6 +8,7 @@ import node from '../Media/node.png'
 import javascript from '../Media/javascript.png'
 import react from '../Media/react.png'
 import typescript from '../Media/typescript.png'
+import sql from '../Media/mysql.png'
 
 const Skills = () => {
     window.addEventListener('scroll', function() {
@@ -27,7 +28,7 @@ const Skills = () => {
     <div id="skills-page" class="skills-page">
     <div>
         <Col id="title-row" md={6}>
-            <div><h2>Skills</h2></div>
+            <div><h2>Proficiencies</h2></div>
         </Col>
         <Col md={6}></Col>
     </div>
@@ -37,7 +38,7 @@ const Skills = () => {
         <Col><img id="javascript-logo" src={javascript}/></Col>
         <Col><img id="typescript-logo" src={typescript}/></Col>
         <Col><img id="react-logo" src={react}/></Col>
-        <Col><img id="aws-logo2" src={aws}/></Col>
+        <Col><img id="aws-logo2" src={sql}/></Col>
     </div>
     <div id="laptop-image"><img src={laptop}/></div>
     </div>

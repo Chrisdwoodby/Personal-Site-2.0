@@ -97,6 +97,7 @@ const Portfolio = () => {
           document.querySelector('.item-1').classList.remove('in-view');
           document.querySelector('.item-3').classList.remove('in-view');
           document.querySelector('.item-4').classList.remove('in-view');
+          document.querySelector('.item-1').style.opacity = '0 !important'
           document.querySelector('.item-2').classList.add('in-view');
           document.querySelector('.inner-div-1').style.filter = 'brightness(50%)';
           document.querySelector('.inner-div-2').style.filter = 'brightness(50%)';
@@ -180,10 +181,10 @@ const Portfolio = () => {
         <div id="item-wheel">
         <Col id="spinning-wheel" md={6} className="d-flex flex-row mb-3">
         <div class="circle">
-          <div class="inner-div-1 projects" id="top"><img id="portfolio-img" src={plane}/></div>
-          <div class="inner-div-2 projects" id="left"><img id="portfolio-img" src={bus}/></div>
-          <div class="inner-div-3 projects brighten" id="right"><img id="portfolio-img" src={truck}/></div>
-          <div class="inner-div-4 projects" id="bottom"><img id="portfolio-img" src={wedding}/></div>
+          <a href="https://github.com/Chrisdwoodby/FlightTracker" target="_blank"><div class="inner-div-1 projects" id="top"><img id="portfolio-img" src={plane}/></div></a>
+          <a href="https://transitmanagementconsultants.web.app/" target="_blank"><div class="inner-div-2 projects" id="left"><img id="portfolio-img" src={bus}/></div></a>
+          <a href="https://www.dumpsterrentalsystems.com/" target="_blank"><div class="inner-div-3 projects brighten" id="right"><img id="portfolio-img" src={truck}/></div></a>
+          <a href="https://ryanpluscorrie.web.app/" target="_blank"><div class="inner-div-4 projects" id="bottom"><img id="portfolio-img" src={wedding}/></div></a>
         </div>
         </Col>
         <Col id="content-row" md={6} >
@@ -201,7 +202,7 @@ const Portfolio = () => {
             <h4>Wedding RSVP Website</h4>
             <span id="item-tchnologies">React | JavaScript | CSS | Bootstrap</span>
             <br/>
-            <span>Flight tracker which is capable of displaying real time flight data while also providing the user with a hashed and secure log in/sign up.</span>
+            <span>A mobile resonsive wedding informational site with RSVP capabilities. Application deployed via Firebase</span>
           </div>
           </div>
           <div class="item">
@@ -209,18 +210,17 @@ const Portfolio = () => {
             <h4>Transit Management Consultants</h4>
             <span id="item-tchnologies">React | AWS | Bootstrap | Webpack | CSS</span>
             <br/>
-            <span>Flight tracker which is capable of displaying real time flight data while also providing the user with a hashed and secure log in/sign up.</span>
+            <span>Single page application built to act as a landing and informational page for a local small business</span>
           </div>
           </div>
           <div class="item">
           <div class="item-4" id="item-carousel">
             <h4>Flight Tracker</h4>
-            <span id="item-tchnologies">React | JavaScript | MySQL | Bootstrap | Webpack | AWS</span>
+            <span id="item-tchnologies">React | JavaScript | MySQL | Bootstrap | Webpack</span>
             <br/>
             <span>Flight tracker which is capable of displaying real time flight data while also providing the user with a hashed and secure log in/sign up.</span>
           </div>
           </div>
-          {/* <Row id="arrowRow-down"><img onClick={rotate} src={downArrow}/></Row> */}
           <div class="nav-arrows">
             <a onClick={rotateBack} class="previous round">&#8249;</a>
             <a onClick={rotate} class="next round">&#8250;</a>
