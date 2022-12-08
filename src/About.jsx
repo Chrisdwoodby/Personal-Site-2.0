@@ -1,7 +1,5 @@
 import React, {useState} from "react";
-import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import { Container } from "react-bootstrap";
 import aviator from '../Media/aviator.jpeg';
 import japan from '../Media/japan.jpeg';
 

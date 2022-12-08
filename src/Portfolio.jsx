@@ -1,13 +1,10 @@
 import React, {useState} from "react";
-import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import upArrow from '../Media/upArrow.png';
 import plane from '../Media/plane.png';
 import bus from '../Media/bus.png';
 import truck from '../Media/truck.png';
 import wedding from '../Media/wedding.png';
-import downArrow from '../Media/downArrow.png';
-import { Container } from "react-bootstrap";
+
 
 const Portfolio = () => {
     var degreeMain = 0;

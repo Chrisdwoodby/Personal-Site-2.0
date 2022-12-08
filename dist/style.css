@@ -1,6 +1,6 @@
 #main-bg {
     min-height:100%;
-    background:linear-gradient(90deg, rgb(248, 220, 119, 0.4), rgb(248, 220, 119, .8) 80%), url('/skyline.jpeg');
+    background:linear-gradient(90deg, rgb(248, 220, 119, 0.4), rgb(248, 220, 119, .8) 80%), url('/skyline.webp');
     background-size:cover;
     padding-bottom: 75px;
     z-index: 1;
@@ -146,7 +146,7 @@ body.loaded .nav-right {
     padding-bottom: 180px;
 }
 .headshot {
-    background: linear-gradient(90deg, rgb(219, 139, 57, 0.3), rgb(65, 47, 44, .3) 80%), url('/car.jpg');
+    background: linear-gradient(90deg, rgb(219, 139, 57, 0.3), rgb(65, 47, 44, .3) 80%), url('/car.webp');
     height: 320px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -547,7 +547,7 @@ body.loaded .nav-right {
     padding: 50px 0px;
 }
 #timeline-col-1 {
-    background:linear-gradient(90deg, rgb(253, 236, 186, 0.2), rgb(253, 236, 186, .2) 80%), url('/retail.jpeg');
+    background:linear-gradient(90deg, rgb(253, 236, 186, 0.2), rgb(253, 236, 186, .2) 80%), url('/retail.webp');
     margin: 15px;
     display: inline-block;
     background-size: cover;
@@ -558,7 +558,7 @@ body.loaded .nav-right {
     box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
 #timeline-col-2 {
-    background:linear-gradient(90deg, rgb(253, 236, 186, 0.2), rgb(253, 236, 186, .2) 80%), url('/bootcamp.jpeg');
+    background:linear-gradient(90deg, rgb(253, 236, 186, 0.2), rgb(253, 236, 186, .2) 80%), url('/bootcamp.webp');
     margin: 15px;
     display: inline-block;
     background-size: cover;
@@ -570,7 +570,7 @@ body.loaded .nav-right {
     box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
 #timeline-col-3 {
-    background:linear-gradient(90deg, rgb(253, 236, 186, 0.2), rgb(253, 236, 186, .2) 80%), url('/freelance.jpeg');
+    background:linear-gradient(90deg, rgb(253, 236, 186, 0.2), rgb(253, 236, 186, .2) 80%), url('/freelance.webp');
     margin: 15px;
     display: inline-block;
     background-size: cover;
@@ -582,7 +582,7 @@ body.loaded .nav-right {
     box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
 #timeline-col-4 {
-    background:linear-gradient(90deg, rgb(253, 236, 186, 0.2), rgb(253, 236, 186, .2) 80%), url('/saas.jpeg');
+    background:linear-gradient(90deg, rgb(253, 236, 186, 0.2), rgb(253, 236, 186, .2) 80%), url('/saas.webp');
     margin: 15px;
     display: inline-block;
     background-size: cover;

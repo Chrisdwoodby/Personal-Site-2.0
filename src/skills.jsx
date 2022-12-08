@@ -1,7 +1,5 @@
 import React, {useState} from "react";
-import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Container from 'react-bootstrap/Container';
 import laptop from '../Media/laptop.png'
 import aws from '../Media/aws-logo.png'
 import node from '../Media/node.png'
