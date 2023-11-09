@@ -11,8 +11,8 @@ const Footer = function() {
   return (
     <div class="footer-main">
       <div class="footer-navigation">
-        <a class="footer-nav-item">Porfolio</a>
-        <a class="footer-nav-item">Technologies</a>
+        <a class="footer-nav-item" href="#Portfolio-page">Porfolio</a>
+        <a class="footer-nav-item" href="#skills-page">Technologies</a>
         <a class="footer-nav-item" onClick={handleShow}>Contact</a>
         <a class="footer-nav-item" href="https://medium.com/@chrisdwoodby" target="_blank">Blog</a>
         <Modal show={show} onHide={handleClose}>

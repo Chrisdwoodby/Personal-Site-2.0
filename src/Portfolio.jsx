@@ -3,7 +3,7 @@ import Col from 'react-bootstrap/Col';
 import plane from '../Media/plane.png';
 import bus from '../Media/bus.png';
 import truck from '../Media/truck.png';
-import wedding from '../Media/wedding.png';
+import wedding from '../Media/doorswap.png';
 
 
 const Portfolio = () => {
@@ -178,10 +178,10 @@ const Portfolio = () => {
         <div id="item-wheel">
         <Col id="spinning-wheel" md={6} className="d-flex flex-row mb-3">
         <div class="circle">
-          <a href="https://github.com/Chrisdwoodby/FlightTracker" target="_blank"><div class="inner-div-1 projects" id="top"><img id="portfolio-img" src={plane}/></div></a>
-          <a href="https://transitmanagementconsultants.web.app/" target="_blank"><div class="inner-div-2 projects" id="left"><img id="portfolio-img" src={bus}/></div></a>
-          <a href="https://www.dumpsterrentalsystems.com/" target="_blank"><div class="inner-div-3 projects brighten" id="right"><img id="portfolio-img" src={truck}/></div></a>
-          <a href="https://ryanpluscorrie.web.app/" target="_blank"><div class="inner-div-4 projects" id="bottom"><img id="portfolio-img" src={wedding}/></div></a>
+          <a href="https://github.com/Chrisdwoodby/FlightTracker" target="_blank"><div className="inner-div-1 projects" id="top"><img id="portfolio-img" src={plane}/></div></a>
+          <a href="https://transitmanagementconsultants.web.app/" target="_blank"><div className="inner-div-2 projects" id="left"><img id="portfolio-img" src={bus}/></div></a>
+          <a href="https://www.dumpsterrentalsystems.com/" target="_blank"><div className="inner-div-3 projects brighten" id="right"><img className="drs-img" id="portfolio-img" src={truck}/></div></a>
+          <a href="https://www.doorswap.com/" target="_blank"><div className="inner-div-4 projects" id="bottom"><img id="portfolio-img" src={wedding}/></div></a>
         </div>
         </Col>
         <Col id="content-row" md={6} >
@@ -196,10 +196,10 @@ const Portfolio = () => {
           </div>
           <div class="item">
           <div id="item-carousel" class="item-2">
-            <h4>Wedding RSVP Website</h4>
-            <span id="item-tchnologies">React | JavaScript | CSS | Bootstrap</span>
+            <h4>Doorswap Storage</h4>
+            <span id="item-tchnologies">Wordpress | JavaScript | CSS | Digital Ocean</span>
             <br/>
-            <span>A mobile resonsive wedding informational site with RSVP capabilities. Application deployed via Firebase</span>
+            <span>Mobile first design build from scratch with WordPress along with a multi-step workflow and HobSpot integration</span>
           </div>
           </div>
           <div class="item">

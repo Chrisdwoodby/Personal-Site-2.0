@@ -146,11 +146,11 @@ body.loaded .nav-right {
     padding-bottom: 180px;
 }
 .headshot {
-    background: linear-gradient(90deg, rgb(219, 139, 57, 0.3), rgb(65, 47, 44, .3) 80%), url('/car.webp');
+    background: linear-gradient(90deg, rgba(219, 138, 57, 0), rgba(65, 47, 44, 0) 80%), url('/car.jpg');
     height: 320px;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: center;
     width: 320px;
     border-radius: 50%;
     display: inline-block;
@@ -198,8 +198,9 @@ body.loaded .nav-right {
     border-top-left-radius: 250px 100px;
 }
 #portfolio-img {
-    height: 90px;
+    height: 75px;
 }
+
 .circle {
     width: 400px;
     height: 400px;
@@ -232,7 +233,7 @@ body.loaded .nav-right {
     height: 100px;
     width: 100px;
     filter: brightness(100%);
-    background: rgb(254, 255, 180, 0.7);
+    background-color: rgba(255, 255, 255, 0.7);
     box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
   }
   #bottom {
@@ -245,7 +246,7 @@ body.loaded .nav-right {
     height: 100px;
     width: 100px;
     filter: brightness(50%);
-    background: rgb(248, 219, 120, 0.7);
+    background-color: rgba(255, 255, 255, 0.7);
     box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
   }
   #left {
@@ -258,7 +259,7 @@ body.loaded .nav-right {
     height: 100px;
     width: 100px;
     filter: brightness(50%);
-    background: rgb(219, 139, 57, 0.7);
+    background-color: rgba(255, 255, 255, 0.7);
     box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
   }
   #top {
@@ -267,7 +268,7 @@ body.loaded .nav-right {
     line-height: 100px;
     height: 100px;
     width: 100px;
-    background-color: rgb(65, 48, 44, 0.7);
+    background-color: rgba(255, 255, 255, 0.7);
     top: 0;
     left: 0;
     filter: brightness(50%);
@@ -548,7 +549,7 @@ body.loaded .nav-right {
     padding: 50px 0px;
 }
 #timeline-col-1 {
-    background:linear-gradient(90deg, rgb(253, 236, 186, 0.2), rgb(253, 236, 186, .2) 80%), url('/retail.webp');
+    background:linear-gradient(90deg, rgba(253, 236, 186, 0), rgb(253, 236, 186, 0) 80%), url('/retail.png');
     margin: 15px;
     display: inline-block;
     background-size: cover;
@@ -559,7 +560,7 @@ body.loaded .nav-right {
     box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
 #timeline-col-2 {
-    background:linear-gradient(90deg, rgb(253, 236, 186, 0.2), rgb(253, 236, 186, .2) 80%), url('/bootcamp.webp');
+    background:linear-gradient(90deg, rgb(253, 236, 186, 0), rgb(253, 236, 186, 0) 80%), url('/bootcamp.png');
     margin: 15px;
     display: inline-block;
     background-size: cover;
@@ -571,19 +572,19 @@ body.loaded .nav-right {
     box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
 #timeline-col-3 {
-    background:linear-gradient(90deg, rgb(253, 236, 186, 0.2), rgb(253, 236, 186, .2) 80%), url('/freelance.webp');
+    background:linear-gradient(90deg, rgb(253, 236, 186, 0), rgb(253, 236, 186, 0) 80%), url('/freelance.png');
     margin: 15px;
     display: inline-block;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center top;
     width: 250px;
     height: 300px;
     border-radius: 30px;
     box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
 #timeline-col-4 {
-    background:linear-gradient(90deg, rgb(253, 236, 186, 0.2), rgb(253, 236, 186, .2) 80%), url('/saas.webp');
+    background:linear-gradient(90deg, rgb(253, 236, 186, 0), rgb(253, 236, 186, 0) 80%), url('/sass.png');
     margin: 15px;
     display: inline-block;
     background-size: cover;
@@ -811,10 +812,15 @@ body.loaded .nav-right {
       clip-path: inset(0 0 0 0);
     }
 }
-
+.drs-img {
+    height: 35px !important;
+}
 @media (max-width: 767px) {
     #portfolio-img {
         height: 70px;
+    }
+    .drs-img {
+        height: 36px !important;
     }
     .nav-mobile {
         letter-spacing: 5px;

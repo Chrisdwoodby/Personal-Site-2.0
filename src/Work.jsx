@@ -12,8 +12,8 @@ const Work = () => {
       </div>
       <div id="work-items-row">
         <Col md={3}><div id="timeline-col-1"></div>
-          <h4>Retail Management</h4>
-          <article>Customer service and  employee relations focused</article>
+          <h4>Digital Marketing</h4>
+          <article>Workflow creation and Lead Generation based Development</article>
         </Col>
 
         <Col md={3}><div id="timeline-col-2"></div>
